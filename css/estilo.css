@@ -11,6 +11,7 @@ img { border: none; }
 
 
 
+
 .texto-justificado{
     text-align: justify;
 }
@@ -50,6 +51,7 @@ img { border: none; }
 /*-- Pie de página ---------------------------------------------------*/
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
+.enlaces .img-logo{ display: block; max-width: 30%; max-height: 30%; float: left;}
 
 /* === IMPORTANTE ===================================================
    A partir de aquí, se pueden añadir todos los estilos propios que 
@@ -61,7 +63,7 @@ img { border: none; }
 #menu,
 #lateral,
 #lateral #noticias,
-#lateral #publicidad,
+ 
 #contenido,
 #contenido #principal,
 #contenido #secundario,
